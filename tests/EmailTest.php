@@ -2,8 +2,7 @@
 declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
-include ("/var/www/src/Email.php");
-
+include(dirname(__DIR__).'../src/Email.php');
 /**
  * @covers Email
  */
